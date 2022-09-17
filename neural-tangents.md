@@ -22,7 +22,7 @@ Infinite-width network:
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/57341225/190848882-95d44b2d-be51-401a-b471-ab19f25d367f.png">
 
 
-See how the infinite-width network converges to a Gaussian process (the output distribution of the NN data points become multivariate Gaussian-dsitributed)? 
+See how the infinite-width network converges to a Gaussian process (the output distribution of the NN data points become multivariate Gaussian-distributed... unlike with finite-width networks where the outputs were not following a standard distribution.)? 
 
 A Gaussian process is a closed-form expression (no need for stochastic gradient descent-style training). See below for use. 
 
