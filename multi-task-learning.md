@@ -18,12 +18,12 @@ $$
 
 instead of doing this (as usual): 
 
-image 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57341225/190859034-1c1cd295-8acf-4b91-bd5f-b3eaa8e5e17c.png">
 
 
 we do this:  
 
-image 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57341225/190859054-22682478-eefc-4bf4-a8c4-1ec3d6353c2a.png">
 
 
 Three components: 
@@ -36,10 +36,11 @@ Three components:
 
 We ask, should we share parameters across tasks? Or should the learnable parameters in the architecture be entirely separate for each task? The latter may look something like this (credit: CS 330 slides): 
 
-image.png
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57341225/190859106-c52f4424-30eb-4c85-97ea-a29143eb9de8.png">
 
-image.png 
+and the former: 
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57341225/190859130-7ba5a586-65fd-4c2f-a042-44c403c74ba2.png">
 
 
 
