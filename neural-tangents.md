@@ -2,7 +2,9 @@
 
 Kernel functions are a tough concept to understand in mathematics. The basic idea behind it is to transform input data from a lower-dimensional space, which is originally non-linearly seperable, into a higher-dimensional space where it then becomes linearly seperable. This allows use to calculate expressions pertaining to machine learning in closed form (i.e., the kernel function allows the use of a kernel trick which is essentially called a "generalized dot product"). As such, we can just train a linear model (i.e., SVM) in this higher dimensional space to e.g., classify data. A visual depiction is shown below ([image source](https://towardsdatascience.com/the-kernel-trick-c98cdbcaeb3f)):
 
-https://miro.medium.com/max/1400/1*zWzeMGyCc7KvGD9X8lwlnQ.png
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/57341225/190848885-2a317cfd-939d-40a9-9e19-72718ad9eda3.png">
+
 
 
 Why is this relevant for neural networks? Because... 
@@ -11,8 +13,18 @@ Why is this relevant for neural networks? Because...
 
 Recent research has shown that neural networks follow a similar principle to the above. More precisely, as the width of the neural network increases towards infinity, the network simplifies to a linear model with a multivariate Gaussien distribution for its output. Let's visualize this (credit: slides from [tutorial](https://iclr.cc/virtual_2020/poster_SklD9yrFPS.html)): 
 
+Finite-width network: 
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/57341225/190848813-72ff0458-93a7-4d56-bca8-91f0ce2b097e.png">
+
+Infinite-width network: 
+
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/57341225/190848882-95d44b2d-be51-401a-b471-ab19f25d367f.png">
 
 
+See how the infinite-width network converges to a Gaussian process (the output distribution of the NN data points become multivariate Gaussian-dsitributed)? 
+
+A Gaussian process is a closed-form expression (no need for stochastic gradient descent-style training). See below for use. 
 
 
 
@@ -55,7 +67,9 @@ predict_fn = nt.predict.gradient_descent_mse_ensemble(kernel_fn, x_train,
 y_test_nngp, y_test_ntk = predict_fn(x_test=test_feature_vector, get=('nngp', 'ntk'))
 ```
 
+## Present state of neural tangents
 
+Emperically, it seems that these models perform worse than standard over-parameterized, finite-width nets. However, they provide a new perspective on the theory behind neural networks. 
 
 ## References 
 
