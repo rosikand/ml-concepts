@@ -77,7 +77,7 @@ Emperically, it seems that these models perform worse than standard over-paramet
 - Tutorial (video + slides): https://iclr.cc/virtual_2020/poster_SklD9yrFPS.html
 - Paper: [Neural Tangents: Fast and Easy Infinite Neural Networks in Python](https://arxiv.org/abs/1912.02803)
 - Paper: [Deep Neural Networks as Gaussian Processes](https://arxiv.org/abs/1711.00165)
-- Paper: 
+- Paper: [Neural Tangent Kernel: Convergence and Generalization in Neural Networks](https://arxiv.org/pdf/1806.07572.pdf)
 - Blog post 1: https://lilianweng.github.io/posts/2022-09-08-ntk/
 - Blog post 2: https://rajatvd.github.io/NTK/
 
