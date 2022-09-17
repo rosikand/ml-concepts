@@ -1,6 +1,6 @@
 # 📓 ml-concepts
 
-Short notes on atomic concepts in machine learning.
+Short, atomic notes on concepts in machine learning.
 
 
 ## Contents 
