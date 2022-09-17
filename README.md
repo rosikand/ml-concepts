@@ -13,3 +13,4 @@ Short, atomic notes on concepts in machine learning.
 - Domain adaption 
 - Self-supervised representation learning 
 - Gaussian processes 
+- multi-task learning
