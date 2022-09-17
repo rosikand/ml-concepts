@@ -13,3 +13,4 @@ Short notes on atomic concepts in machine learning.
 - Neural tangents, infinite-width neural networks 
 - Domain adaption 
 - Self-supervised representation learning 
+- Gaussian processes 
