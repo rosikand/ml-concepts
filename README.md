@@ -14,3 +14,4 @@ Short, atomic notes on concepts in machine learning.
 - Domain adaption 
 - Self-supervised representation learning 
 - Gaussian processes 
+- Embedding space (how to learn one for e.g., both images and text)
