@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ml-concepts"
+  #navbar:
+    # background: grey
+
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+
+
+
